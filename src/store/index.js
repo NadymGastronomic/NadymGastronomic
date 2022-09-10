@@ -276,6 +276,23 @@ export default new Vuex.Store({
         ],
         comments:[]
       },
+      {
+        id: 12,
+        title: 'Пивоваренный завод',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVyNTkpB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/12/1.jpg'),
+            source: ''
+          },
+          {
+            url: require('../assets/images/12/2.jpg'),
+            source: ''
+          },
+        ],
+        comments:[]
+      },
     ]
   },
   mutations: {

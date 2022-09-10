@@ -11,12 +11,11 @@
           <app-project-map style="display: inline;margin: 0 10px;"></app-project-map>
           
           <router-view style="display: inline;"/>
-          <div style="position: absolute; bottom: 0px;margin-left:-16px; width: 100%;">
-            <hr style="margin-top:20px;">
-            <p class="signature" style="margin-bottom: 0px !important;">&copy; 2022</p>
-            <p class="signature" style="margin: 0px !important;"><a href="https://vk.com/museumnadym" target="_blank">Музей истории и археологии г. Надыма</a></p>
-            <p class="signature" style="margin-top: 0px !important;"><a href="https://vk.com/history_photo_nadym" target="_blank">Сообщество "Надым в объективе"</a></p>
-          </div>
+          <hr style="margin-top:20px;">
+          <p class="signature" style="margin-bottom: 0px !important;">&copy; 2022</p>
+          <p class="signature" style="margin: 0px !important;"><a href="https://vk.com/museumnadym" target="_blank">Музей истории и археологии г. Надыма</a></p>
+          <p class="signature" style="margin-top: 0px !important;"><a href="https://vk.com/history_photo_nadym" target="_blank">Сообщество "Надым в объективе"</a></p>
+
         </div>
       </div>
     </v-main>
@@ -61,7 +60,8 @@ export default {
     padding: 30px;
     width:100%;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: end;
   }
 
   .titleWrap{
@@ -72,7 +72,6 @@ export default {
     padding: 16px 16px 0;
     text-align: center;
     width: 328px;
-    position: relative;
   }
 
   .titleWrapSmall{
