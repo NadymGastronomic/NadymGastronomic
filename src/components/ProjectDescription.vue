@@ -13,33 +13,32 @@
           v-bind="attrs"
           v-on="on"
         >
-          О проекте
+          Ключевые этапы
         </v-btn>
       </template>
       <v-card>
         <v-card-title>
-          О проекте
+          Ключевые этапы
           <v-spacer></v-spacer>
           <v-icon @click="dialog = false">mdi-close</v-icon>
         </v-card-title>
         <v-divider></v-divider>
-        <v-card-text style="padding: 20px 24px 10px;font-size: 15px;line-height: 1.6;">
-            <p>
-              История Надыма началась задолго до 9 марта 1972 года, когда он получил статус города.
-              Днём рождения можно считать 22 апреля 1949 года, когда санно-тракторный поезд из Салехарда высадил на берегу реки Надым первый десант строителей 501 стройки.
-              Именно тогда на карте появился Новый Надым (так назывался наш город до 1970-х гг.).
-            </p>
-            <p>
-              Проект "Новый Надым 1960-х" представляет собой <a href="https://yandex.ru/maps/-/CCUmuWWElC" target="_blank">карту Нового Надыма 1969-70 гг.</a>,
-              дополненную воспоминаниями <a href="https://vk.com/id150551000" target="_blank">Валерия Мартынова</a>, почётного гражданина Надыма, проживающем здесь с 1966 года.
-            </p>
-            <p>
-              Карта Нового Надыма нанесена поверх карты современного Надыма, чтобы можно было понять, где находился тот или иной дом.
-              Карта является интерактивной: при нажатии на дом открывается его описание.
-            </p>
-            <p>
-              Проект разработан <a href="https://vk.com/history_photo_nadym" target="_blank">сообществом "Надым в объективе"</a>.
-            </p>
+        <v-card-text style="padding: 20px 24px 10px;font-size: 15px;line-height: 1.6;background: #f3f3f3;">
+          <v-timeline
+            dense
+          >
+            <v-timeline-item
+              v-for="obj in $store.state.timeline"
+              :key="obj.id"
+            >
+              <v-card class="elevation-2">
+                <v-card-title class="text-h5">
+                  {{obj.date}}
+                </v-card-title>
+                <v-card-text v-html="obj.text"></v-card-text>
+              </v-card>
+            </v-timeline-item>
+          </v-timeline>
         </v-card-text>
       </v-card>
     </v-dialog>
@@ -51,6 +50,7 @@
     data () {
       return {
         dialog: false,
+        reverse: true,
       }
     },
   }

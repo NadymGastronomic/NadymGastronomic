@@ -8,6 +8,7 @@
           <p class="blockquote">
             Online-выставка об организации системы общественного питания в Надыме в 1970-80-х годах и о людях, стоявших у истоков первых столовых.
           </p>
+          <app-project-description style="display: inline;margin: 0 10px;"></app-project-description><br/>
           <app-project-map style="display: inline;margin: 0 10px;"></app-project-map>
           
           <router-view style="display: inline;"/>
