@@ -1,0 +1,287 @@
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+
+export default new Vuex.Store({
+  state: {
+    objects:[
+      {
+        id: 1,
+        title: '1. Котлопункт Нового Надыма',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVq6uj9B" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/1/1.jpg'),
+            source: 'https://pastvu.com/p/1327371'
+          },
+          {
+            url: require('../assets/images/1/2.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 2,
+        title: '2. Пекарня и хоз.магазин Нового Надыма',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVq6Xx8D" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/2/1.jpg'),
+            source: 'https://pastvu.com/p/1136853'
+          },
+          {
+            url: require('../assets/images/2/2.jpg'),
+            source: 'https://pastvu.com/p/1415534'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 3,
+        title: '3. Отдел рабочего снабжения',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVqCQapA" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/3/0.jpg'),
+            source: 'https://pastvu.com/p/1622084'
+          },
+          {
+            url: require('../assets/images/3/1.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 4,
+        title: '4. Картофелехранилище',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVqCCdhB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '<p>В 1967 году посёлок Новый Надым был выбран в качестве опорного пункта для проживания строителей и газодобытчиков Медвежьего месторождения. Первый строительный комсомольско-молодёжный трест «Севергазстрой» (образован 6 июня 1969 г.) взялся за обустройство месторождения и посёлка. Перед ним стояло множество задач, одной из которых была проблема продовольствия – обеспечения прибывших в Надым строителей продуктами питания. 31 декабря 1970 г. в посёлке Надымтрестом «Севергазстрой» сдаётся в эксплуатацию картофелехранилище базы отдела рабочего снабжения-9 УРСа «Главтюменнефтегазстрой» ёмкостью 1500 т.</p>',
+        images:[],
+        comments:[]
+      },
+      {
+        id: 5,
+        title: '5. Столовая "Ири" (в народе "Фанза")',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVyYRNSD" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '<p>Кафе (столовая) «Ири» (за Домом торговли). В советскую эпоху по всей стране работали столовые, входящие в систему общественного питания СССР (общепит). Первое кафе в Надыме на 60 мест открылась в 1971 году. Рядом в бараке находилась пекарня. Кафе совмещало функции клуба, в нём отмечались дни рождения, крестины, здесь принимали почётных гостей из правительства, проходили комсомольские свадьбы и выступления знаменитых в нашей стране артистов театра и эстрады. Официальное название заведения – кафе «Ири», что в переводе с ненецкого означает «луна», но люди называли его по-разному. Своей формой крыша этого здания напоминала китайскую. Концерты и спектакли проходили прямо в обеденном зале. Приезжал Игорь Владимиров со своей труппой, выступал Иосиф Кобзон. До того, как был построен кинотеатр «Победа», кафе «Ири» по сути заменяло Дом культуры. Из воспоминаний А.А. Витковского: «Столовая в восточном стиле временная. Называли её «фанза». Это творение Паши Дизера из проектно-сметного бюро СГС».</p> <p>Из воспоминаний первопроходца-строителя Евгения Михайловича Мамина: «Кормили в столовой вполне прилично: салатик, первое, второе, компот, сметана, молоко, блинчики с мясом. Всё было сделано хорошо, вкусно, мы ходили туда с удовольствием. Главное ещё то, что недорого: 1–1руб. 50 коп. На эти деньги можно было сытно поесть. Столовая была хорошая. Девчата там работали молодые, энергичные. Обслуживали быстро. Нарезанный хлеб уже лежал на столах – бери сколько хочешь, там же была соль и горчица. Столовая использовалась также на все торжественные мероприятия. Если какое-то предприятие арендовало столовую, то в зале выступали вокально-инструментальные ансамбли этих организаций».</p> <p>В кафе «Ири» работал кондитерский отдел, в котором были в продаже следующие хлебобулочные изделия: булочки, ватрушки с творогом и с повидлом, пирожки, пирожные: песочное, бисквитное, коржики. Дрожжевая продукция выпекалась ночью, днём выпекали торты на заказ. Повара были разных национальностей, приехали из разных уголков страны. Блюда в кафе-столовой готовились по сборнику рецептур 1953 года.</p>',
+        images:[
+          {
+            url: require('../assets/images/5/1.jpg'),
+            source: 'https://pastvu.com/p/1622084'
+          },
+          {
+            url: require('../assets/images/5/2.jpg'),
+            source: 'https://pastvu.com/p/1416787'
+          },
+          {
+            url: require('../assets/images/5/3.jpg'),
+            source: 'https://pastvu.com/p/1220927'
+          },
+          {
+            url: require('../assets/images/5/4.jpg'),
+            source: 'https://pastvu.com/p/1136853'
+          },
+          {
+            url: require('../assets/images/5/5.jpg'),
+            source: 'https://pastvu.com/p/1086393'
+          },
+          {
+            url: require('../assets/images/5/6.jpg'),
+            source: 'https://pastvu.com/p/1434726'
+          },
+          {
+            url: require('../assets/images/5/7.jpg'),
+            source: 'https://pastvu.com/p/1390639'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 6,
+        title: '6. Магазин "Новинка"',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVy4qPpA" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '<p>Продуктовый магазин «Новинка» открылся в 1973-74 годах. В 1970-80-х годах самым распространённым блюдом любого стола были картофель и квашеная капуста.</p>',
+        images:[
+          {
+            url: require('../assets/images/6/1.jpg'),
+            source: 'https://pastvu.com/p/1344579'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 7,
+        title: '7. КБО (БПО)',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVy4EbOC" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '<p>Здание КБО (комбината бытового обслуживания или блока первичного обслуживания в микрорайоне VА, позднее магазин №6 "Дом торговли") было построено в 1974 году, а то здание, где располагалось кафе «Ири», через некоторое время снесли. Из «Ири» сюда, на новое место работы приходят специалисты общепита. В КБО располагались столовая, магазин «Кулинария», гастрономический отдел, «Хлеб», «Одежда».</p>',
+        images:[
+          {
+            url: require('../assets/images/7/1.jpg'),
+            source: 'https://pastvu.com/p/1162401'
+          },
+          {
+            url: require('../assets/images/7/2.jpg'),
+            source: 'https://pastvu.com/p/1472022'
+          },
+          {
+            url: require('../assets/images/7/3.jpg'),
+            source: 'https://pastvu.com/p/1473914'
+          },
+          {
+            url: require('../assets/images/7/4.jpg'),
+            source: 'https://pastvu.com/p/1434764'
+          },
+          {
+            url: require('../assets/images/7/5.jpg'),
+            source: 'https://pastvu.com/p/1086393'
+          },
+          {
+            url: require('../assets/images/7/6.jpg'),
+            source: 'https://pastvu.com/p/1531271'
+          },
+          {
+            url: require('../assets/images/7/7.jpg'),
+            source: 'https://pastvu.com/p/1390639'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 8,
+        title: '8. Кафе "Сказка"',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVyBuQ8D" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '<p>Детское кафе «Сказка» находилось в одном здании с магазином № 22 ОРСа № 1, ул. Комсомольская, д. 6а (фотографии строительства магазина № 22, кафе «Сказка»). Магазин был построен в 1975 году. Кафе открылось в 1976 году. В левой части здания был продуктовый магазин, в центре – «Кулинария», а в правой части – кафе «Сказка». Интерьер кафе соответствовал его названию, на стенах были изображения различных сказочных сюжетов. В ассортименте кроме горячих блюд был большой выбор мороженого, десертов и холодных напитков.</p>',
+        images:[
+          {
+            url: require('../assets/images/8/1.jpg'),
+            source: 'https://pastvu.com/p/1630164'
+          },
+          {
+            url: require('../assets/images/8/2.jpg'),
+            source: 'https://pastvu.com/p/1473911'
+          },
+          {
+            url: require('../assets/images/8/3.jpg'),
+            source: 'https://pastvu.com/p/1472780'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 9,
+        title: '9. Ресторан "65 параллель"',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVyBu6cD" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '<p>В 1976 году в Надыме появился первый в городе ресторан «65-я Параллель» – место, призванное повысить культуру питания и обслуживания населения. В том же здании открылись столовая и магазин «Кулинария». Это здание типового проекта также являлось блоком первичного обслуживания.</p><p>В ресторане «65-я Параллель», расположенном на втором этаже, было 3 зала: основной зал на 120 чел. со своей танцплощадкой – танцполом, «Белый» зал (зал переговоров на 20 человек, VIPзона) – на 12 мест, «Розовый» (в 2011 г. был переделан в зал «Караоке») – на 25 мест. Работали в 2 смены в общей сложности более 20 сотрудников. У посетителей ресторана пользовался популярностью фирменный салат «65-я Параллель» из красной рыбы (сёмги или форели) и креветок.</p><p>В мае 2008 года после капитального ремонта вновь открылось предприятие розничной торговли – магазин № 5 «Кулинария». Магазин оборудовали современным торговым оборудованием и автоматизированной системой компьютерного учёта движения и учёта товара, в нём был представлен расширенный ассортимент кулинарной продукции. В 2000-х годах здание представляло собой комплекс общественного питания, в который входили: кафе «Русь» (на 1 этаже, на месте бывшей столовой появилось кафе с 2008 года), магазин «Кулинария», ресторан «65 параллель». В 2014 году ресторан «65-я параллель» был закрыт.</p>',
+        images:[
+          {
+            url: require('../assets/images/9/1.jpg'),
+            source: 'https://pastvu.com/p/1136788'
+          },
+          {
+            url: require('../assets/images/9/2.jpg'),
+            source: 'https://pastvu.com/p/1175637'
+          },
+          {
+            url: require('../assets/images/9/3.jpg'),
+            source: 'https://pastvu.com/p/1180571'
+          },
+          {
+            url: require('../assets/images/9/4.jpg'),
+            source: 'https://pastvu.com/p/1473473'
+          },
+          {
+            url: require('../assets/images/9/5.jpg'),
+            source: 'https://pastvu.com/p/1402942'
+          },
+          {
+            url: require('../assets/images/9/6.jpg'),
+            source: 'https://pastvu.com/p/1197507'
+          },
+          {
+            url: require('../assets/images/9/7.jpg'),
+            source: 'https://pastvu.com/p/1248742'
+          },
+          {
+            url: require('../assets/images/9/8.jpg'),
+            source: 'https://pastvu.com/p/1490730'
+          },
+          {
+            url: require('../assets/images/9/9.jpg'),
+            source: 'https://pastvu.com/p/1081344'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 10,
+        title: '10. Кафе "Встреча"',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVyBwz0A" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '<p>Кафе «Встреча» было открыто в 1979 г.</p>',
+        images:[
+          {
+            url: require('../assets/images/10/1.jpg'),
+            source: 'https://pastvu.com/p/1630163'
+          },
+          {
+            url: require('../assets/images/10/2.jpg'),
+            source: 'https://pastvu.com/p/1358908'
+          },
+          {
+            url: require('../assets/images/10/3.jpg'),
+            source: 'https://pastvu.com/p/1146421'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 11,
+        title: '11. Магазин № 25 «Надым»',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVyBT2SB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '<p>14 декабря 1984 года в городе открыты магазин № 25 «Надым» ОРСа-1 по продаже промышленных и продовольственных товаров торговой площадью 900 м²</p>',
+        images:[
+          {
+            url: require('../assets/images/11/1.jpg'),
+            source: 'https://pastvu.com/p/1499298'
+          },
+          {
+            url: require('../assets/images/11/2.jpg'),
+            source: 'https://pastvu.com/p/1102987'
+          },
+          {
+            url: require('../assets/images/11/3.jpg'),
+            source: 'https://pastvu.com/p/1482357'
+          },
+          {
+            url: require('../assets/images/11/4.jpg'),
+            source: 'https://pastvu.com/p/15002507'
+          },
+          {
+            url: require('../assets/images/11/5.jpg'),
+            source: 'https://pastvu.com/p/1234957'
+          },
+          {
+            url: require('../assets/images/11/6.jpg'),
+            source: 'https://pastvu.com/p/1086389'
+          },
+          {
+            url: require('../assets/images/11/7.jpg'),
+            source: 'https://pastvu.com/p/1081338'
+          },
+        ],
+        comments:[]
+      },
+    ]
+  },
+  mutations: {
+  },
+  actions: {
+  },
+  modules: {
+  }
+})
