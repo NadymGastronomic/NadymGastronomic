@@ -15,7 +15,7 @@
           <p class="signature" style="margin-bottom: 0px !important;">&copy; 2022</p>
           <p class="signature" style="margin: 0px !important;"><a href="https://vk.com/museumnadym" target="_blank">Музей истории и археологии г. Надыма</a></p>
           <p class="signature" style="margin-top: 0px !important;"><a href="https://vk.com/history_photo_nadym" target="_blank">Сообщество "Надым в объективе"</a></p>
-
+          <br/>
         </div>
       </div>
     </v-main>
