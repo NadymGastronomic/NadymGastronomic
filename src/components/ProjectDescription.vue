@@ -23,7 +23,7 @@
           <v-icon @click="dialog = false">mdi-close</v-icon>
         </v-card-title>
         <v-divider></v-divider>
-        <v-card-text style="padding: 20px 24px 10px;font-size: 15px;line-height: 1.6;background: #f3f3f3;">
+        <v-card-text style="padding: 20px 10px 20px 0;font-size: 15px;line-height: 1.6;background: #f3f3f3;">
           <v-timeline
             dense
           >
@@ -32,10 +32,10 @@
               :key="obj.id"
             >
               <v-card class="elevation-2">
-                <v-card-title class="text-h5">
+                <v-card-title class="text-h5" style="word-break: break-word;">
                   {{obj.date}}
                 </v-card-title>
-                <v-card-text v-html="obj.text"></v-card-text>
+                <v-card-text v-html="obj.text" style="word-break: break-word;"></v-card-text>
               </v-card>
             </v-timeline-item>
           </v-timeline>
