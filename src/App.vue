@@ -10,11 +10,13 @@
           </p>
           <app-project-description style="display: inline;margin: 0 10px;"></app-project-description><br/>
           <app-project-map style="display: inline;margin: 0 10px;"></app-project-map>
+          <app-project-video style="display: inline;margin: 0 10px;"></app-project-video>
           
           <router-view style="display: inline;"/>
           <hr style="margin-top:20px;">
           <p class="signature" style="margin-bottom: 0px !important;">&copy; 2022</p>
           <p class="signature" style="margin: 0px !important;"><a href="https://vk.com/museumnadym" target="_blank">Музей истории и археологии г. Надыма</a></p>
+          <p class="signature" style="margin: 0px !important;"><a href="https://vk.com/id18800507" target="_blank">Инна Рубилкина</a></p>
           <p class="signature" style="margin-top: 0px !important;"><a href="https://vk.com/history_photo_nadym" target="_blank">Сообщество "Надым в объективе"</a></p>
           <br/>
         </div>

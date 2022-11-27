@@ -80,6 +80,10 @@ export default new Vuex.Store({
             source: 'https://pastvu.com/p/1416787'
           },
           {
+            url: require('../assets/images/5/2-2.jpg'),
+            source: ''
+          },
+          {
             url: require('../assets/images/5/3.jpg'),
             source: 'https://pastvu.com/p/1220927'
           },
@@ -297,6 +301,185 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/12/2.jpg'),
             source: ''
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 13,
+        title: 'Пельменная',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUffYhJLB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/13/1.jpg'),
+            source: ''
+          },
+          {
+            url: require('../assets/images/13/2.jpg'),
+            source: ''
+          },
+          {
+            url: require('../assets/images/13/3.jpg'),
+            source: ''
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 14,
+        title: 'Продуктовый магазин №67',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUffFeAgB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/14/1.jpg'),
+            source: ''
+          },
+          {
+            url: require('../assets/images/14/2.jpg'),
+            source: ''
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 15,
+        title: 'Кафе "Надым"',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUffJRdCA" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/15/1.jpg'),
+            source: 'https://pastvu.com/p/1166387'
+          },
+          {
+            url: require('../assets/images/15/2.jpg'),
+            source: 'https://pastvu.com/p/16262257'
+          },
+          {
+            url: require('../assets/images/15/3.jpg'),
+            source: 'https://pastvu.com/p/1247493'
+          },
+          {
+            url: require('../assets/images/15/4.jpg'),
+            source: 'https://pastvu.com/p/1248767'
+          },
+          {
+            url: require('../assets/images/15/5.jpg'),
+            source: 'https://pastvu.com/p/1086581'
+          },
+          {
+            url: require('../assets/images/15/6.jpg'),
+            source: 'https://pastvu.com/p/1091977'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 16,
+        title: 'Магазин №15',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUffRxBcA" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: 'После перестройки был открыт магазин "Меркурий".',
+        images:[
+          {
+            url: require('../assets/images/16/1.jpg'),
+            source: ''
+          },
+          {
+            url: require('../assets/images/16/2.jpg'),
+            source: ''
+          },
+          {
+            url: require('../assets/images/16/3.jpg'),
+            source: ''
+          },
+          {
+            url: require('../assets/images/16/4.jpg'),
+            source: ''
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 17,
+        title: 'Магазин "Посуда"',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUffZAHGB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/17/1.jpg'),
+            source: 'https://pastvu.com/p/1091965'
+          },
+          {
+            url: require('../assets/images/17/2.jpg'),
+            source: 'https://pastvu.com/p/1084701'
+          },
+          {
+            url: require('../assets/images/17/3.jpg'),
+            source: 'https://pastvu.com/p/1213328'
+          },
+          {
+            url: require('../assets/images/17/4.jpg'),
+            source: 'https://pastvu.com/p/1645002'
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 18,
+        title: 'Магазин "Промышленные товары"',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUff6fkPD" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/18/1.jpg'),
+            source: ''
+          },
+        ],
+        comments:[]
+      },
+      {
+        id: 19,
+        title: 'Магазин "Светлана"',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUffCekpC" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: 'Затем магазин "Электрон"',
+        images:[
+          {
+            url: require('../assets/images/19/1.jpg'),
+            source: 'https://pastvu.com/p/1091970'
+          },
+          {
+            url: require('../assets/images/19/2.jpg'),
+            source: 'https://pastvu.com/p/1416419'
+          },
+          {
+            url: require('../assets/images/19/3.jpg'),
+            source: 'https://pastvu.com/p/1375881'
+          },
+          {
+            url: require('../assets/images/19/4.jpg'),
+            source: 'https://pastvu.com/p/1084702'
+          },
+          {
+            url: require('../assets/images/19/5.jpg'),
+            source: 'https://pastvu.com/p/1102978'
+          },
+          {
+            url: require('../assets/images/19/6.jpg'),
+            source: 'https://pastvu.com/p/1087267'
+          },
+          {
+            url: require('../assets/images/19/7.jpg'),
+            source: 'https://pastvu.com/p/1471291'
+          },
+          {
+            url: require('../assets/images/19/8.jpg'),
+            source: 'https://pastvu.com/p/1503484'
+          },
+          {
+            url: require('../assets/images/19/9.jpg'),
+            source: 'https://pastvu.com/p/1357792'
           },
         ],
         comments:[]
