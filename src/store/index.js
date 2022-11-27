@@ -227,6 +227,18 @@ export default new Vuex.Store({
             url: require('../assets/images/9/9.jpg'),
             source: 'https://pastvu.com/p/1081344'
           },
+          {
+            url: require('../assets/images/9/10.jpg'),
+            source: ''
+          },
+          {
+            url: require('../assets/images/9/11.jpg'),
+            source: 'https://pastvu.com/p/1264007'
+          },
+          {
+            url: require('../assets/images/9/12.jpg'),
+            source: 'https://pastvu.com/p/1263998'
+          },
         ],
         comments:[]
       },
@@ -379,7 +391,7 @@ export default new Vuex.Store({
       {
         id: 16,
         title: 'Магазин №15',
-        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUffRxBcA" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUfjEGPoC" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
         description: 'После перестройки был открыт магазин "Меркурий".',
         images:[
           {
@@ -484,6 +496,19 @@ export default new Vuex.Store({
         ],
         comments:[]
       },
+      {
+        id: 20,
+        title: 'Магазин "Таёжный"',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUfjYVYCA" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: 'Затем магазин "Электрон"',
+        images:[
+          {
+            url: require('../assets/images/20/1.jpg'),
+            source: 'https://pastvu.com/p/1146417'
+          },
+        ],
+        comments:[]
+      },
     ],
     timeline:[
       {
@@ -515,6 +540,11 @@ export default new Vuex.Store({
         id: 6,
         date: '1975',
         text: 'Построен <a href="/#/p8">магазин №22</a>.',
+      },
+      {
+        id: 6-1,
+        date: '1975',
+        text: 'Открытие молокозавода.',
       },
       {
         id: 7,
