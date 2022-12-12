@@ -34,8 +34,10 @@
                 v-for="(image, i) in object.images"
                 :key="i"
               >
-                <app-photo-modal :image='image'></app-photo-modal>
+                <app-photo-modal :image='image' style="z-index:10;"></app-photo-modal>
+                <p class="photoDescription" v-if="image.description">{{image.description}}</p>
                 <img :src="image.url" style="max-width: 100%; max-height: 100%;margin: auto;">
+                
               </v-carousel-item>
             </v-carousel>
           </template>
@@ -156,5 +158,13 @@
   .blockquote-footer{
     font-size: 15px !important;
     text-align: right;
+  }
+
+  .photoDescription{
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    color: white;
   }
 </style>
