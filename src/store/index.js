@@ -199,7 +199,7 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/7/9.jpg'),
             source: '',
-            description: 'Парикмахерскаяя'
+            description: 'Парикмахерская'
           },
         ],
         comments:[
@@ -232,7 +232,12 @@ export default new Vuex.Store({
             source: 'https://pastvu.com/p/1472780'
           },
         ],
-        comments:[]
+        comments:[
+          {
+            text:'Между входом в 22 магазин и кафе, располагалась пиццерия. Там продавали маленькую пиццу и бульон куриный. А в самом кафе был вкуснейший молочный коктейль (бар "Солнышко").',
+            author: '<a href="https://vk.com/id730865648" target="_blank">Василий Герасименко</a>'
+          },
+        ]
       },
       {
         id: 9,
@@ -570,11 +575,18 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/21/1.jpg'),
-            source: ''
+            source: 'https://pastvu.com/p/1704403',
+            description: 'Работники молокозавода, 1978 г. Директор Николай Павлович Вовченко (крайний справа внизу), К.Н. Боярских (крайняя справа).'
           },
           {
             url: require('../assets/images/21/2.jpg'),
-            source: ''
+            source: 'https://pastvu.com/p/1704405',
+            description: 'Выдача молока заказчикам. 8 марта 1980 г.'
+          },
+          {
+            url: require('../assets/images/21/3.jpg'),
+            source: '',
+            description: 'Первая продукция Надымского молокозавода.'
           },
         ],
         comments:[]
