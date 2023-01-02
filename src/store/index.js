@@ -18,7 +18,11 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/1/2.jpg'),
-            source: 'https://www.etoretro.ru/pic256794.htm'
+            source: 'https://pastvu.com/p/1704757'
+          },
+          {
+            url: require('../assets/images/1/3.jpg'),
+            source: 'https://pastvu.com/p/1704756'
           },
         ],
         comments:[]
@@ -52,7 +56,11 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/3/1.jpg'),
-            source: 'https://www.etoretro.ru/pic256794.htm'
+            source: 'https://pastvu.com/p/1704757'
+          },
+          {
+            url: require('../assets/images/3/2.jpg'),
+            source: 'https://pastvu.com/p/1704756'
           },
         ],
         comments:[]
@@ -71,6 +79,10 @@ export default new Vuex.Store({
         mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVyYRNSD" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
         description: '<p>Кафе (столовая) «Ири» (за Домом торговли). В советскую эпоху по всей стране работали столовые, входящие в систему общественного питания СССР (общепит). Первое кафе в Надыме на 60 мест открылась 11 января 1971 года. Рядом в бараке находилась пекарня. Кафе совмещало функции клуба, в нём отмечались дни рождения, крестины, здесь принимали почётных гостей из правительства, проходили комсомольские свадьбы и выступления знаменитых в нашей стране артистов театра и эстрады. Официальное название заведения – кафе «Ири», что в переводе с ненецкого означает «луна», но люди называли его по-разному. Своей формой крыша этого здания напоминала китайскую. Концерты и спектакли проходили прямо в обеденном зале. Приезжал Игорь Владимиров со своей труппой, выступал Иосиф Кобзон. До того, как был построен кинотеатр «Победа», кафе «Ири» по сути заменяло Дом культуры.</p> <p>В кафе «Ири» работал кондитерский отдел, в котором были в продаже следующие хлебобулочные изделия: булочки, ватрушки с творогом и с повидлом, пирожки, пирожные: песочное, бисквитное, коржики. Дрожжевая продукция выпекалась ночью, днём выпекали торты на заказ. Повара были разных национальностей, приехали из разных уголков страны. Блюда в кафе-столовой готовились по сборнику рецептур 1953 года.</p>',
         images:[
+          {
+            url: require('../assets/images/5/0.jpg'),
+            source: 'https://pastvu.com/p/1704757'
+          },
           {
             url: require('../assets/images/5/1.jpg'),
             source: 'https://pastvu.com/p/1622084'
@@ -111,6 +123,10 @@ export default new Vuex.Store({
             url: require('../assets/images/5/7.jpg'),
             source: 'https://pastvu.com/p/1390639'
           },
+          {
+            url: require('../assets/images/5/8.jpg'),
+            source: 'https://pastvu.com/p/1704756'
+          },
         ],
         comments:[
           {
@@ -138,6 +154,10 @@ export default new Vuex.Store({
         description: '<p>Продуктовый магазин «Новинка» открылся в 1973-74 годах. В 1970-80-х годах самым распространённым блюдом любого стола были картофель и квашеная капуста.</p>',
         images:[
           {
+            url: require('../assets/images/6/0.jpg'),
+            source: 'https://pastvu.com/p/1704757'
+          },
+          {
             url: require('../assets/images/6/1.jpg'),
             source: 'https://pastvu.com/p/1344579'
           },
@@ -163,6 +183,10 @@ export default new Vuex.Store({
         mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVy4EbOC" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
         description: '<p>Здание КБО (комбината бытового обслуживания или блока первичного обслуживания в микрорайоне VА, позднее магазин №6 "Дом торговли") было построено в 1974 году, а то здание, где располагалось кафе «Ири», через некоторое время снесли. Из «Ири» сюда, на новое место работы приходят специалисты общепита. В КБО располагались столовая, магазин «Кулинария», гастрономический отдел, «Хлеб», «Одежда».</p>',
         images:[
+          {
+            url: require('../assets/images/7/0.jpg'),
+            source: 'https://pastvu.com/p/1704757'
+          },
           {
             url: require('../assets/images/7/1.jpg'),
             source: 'https://pastvu.com/p/1162401'
