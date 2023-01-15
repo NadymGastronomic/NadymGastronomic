@@ -379,6 +379,10 @@ export default new Vuex.Store({
             url: require('../assets/images/11/7.jpg'),
             source: 'https://pastvu.com/p/1081338'
           },
+          {
+            url: require('../assets/images/11/8.jpg'),
+            source: 'https://pastvu.com/p/1712888'
+          },
         ],
         comments:[]
       },
