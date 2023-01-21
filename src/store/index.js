@@ -151,7 +151,7 @@ export default new Vuex.Store({
         id: 6,
         title: '6. Магазин "Новинка"',
         mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUVy4qPpA" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
-        description: '<p>Продуктовый магазин «Новинка» открылся в 1973-74 годах. В 1970-80-х годах самым распространённым блюдом любого стола были картофель и квашеная капуста.</p>',
+        description: '<p>Продуктовый магазин «Новинка» открылся в 1973 году. В 1970-80-х годах самым распространённым блюдом любого стола были картофель и квашеная капуста.</p>',
         images:[
           {
             url: require('../assets/images/6/0.jpg'),
@@ -163,6 +163,10 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/6/2.jpg'),
+            source: 'https://pastvu.com/p/1720650'
+          },
+          {
+            url: require('../assets/images/6/3.jpg'),
             source: ''
           },
         ],
